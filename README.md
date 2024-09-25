@@ -1,5 +1,5 @@
 # Crowdfunding_ETL
-## For the ETL mini project, you and a partner will develop an ETL pipeline using Python and Pandas, focusing on data extraction and transformation. You'll start by creating several DataFrames from the crowdfunding.xlsx file, resulting in four CSV files. These will serve as the foundation for building an Entity-Relationship Diagram (ERD) and defining a table schema, which you will implement in a Postgres database.
+For the ETL mini project, you and a partner will develop an ETL pipeline using Python and Pandas, focusing on data extraction and transformation. You'll start by creating several DataFrames from the crowdfunding.xlsx file, resulting in four CSV files. These will serve as the foundation for building an Entity-Relationship Diagram (ERD) and defining a table schema, which you will implement in a Postgres database.
 
 ## Project Steps
 
@@ -14,7 +14,7 @@ Rename and convert certain columns as necessary (e.g., changing blurb to descrip
 Include category_id and subcategory_id from the earlier DataFrames.
 Export as campaign.csv.
 
-##Create Contacts DataFrame:
+## Create Contacts DataFrame:
 Choose between two methods for extracting data from contacts.xlsx: using Python dictionary methods or regular expressions.
 Process the data to separate full names into first and last names.
 Export this cleaned DataFrame as contacts.csv.
