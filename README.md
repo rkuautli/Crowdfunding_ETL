@@ -8,7 +8,7 @@ Extract unique categories and subcategories from the Excel data.
 Build DataFrames with sequential IDs (category_id and subcategory_id) alongside their respective titles.
 Export these DataFrames as category.csv and subcategory.csv.
 
-##Create Campaign DataFrame:
+## Create Campaign DataFrame:
 Transform the crowdfunding data to create a campaign DataFrame with multiple specified columns, including cf_id, contact_id, and others.
 Rename and convert certain columns as necessary (e.g., changing blurb to description and converting dates).
 Include category_id and subcategory_id from the earlier DataFrames.
